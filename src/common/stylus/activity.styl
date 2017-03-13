@@ -1,0 +1,142 @@
+@charset "utf-8";
+[ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak, .ng-hide {
+	display: none !important;
+}
+.o-hidden{overflow: hidden;}
+.header{
+	height: .4rem;
+	line-height: .4rem;
+	background-color: #e54042;
+	border:0;
+	width: 100%;
+}
+.header center{
+	font-size: .18rem;
+	color: #fff;
+	width: 50%;
+	word-break: keep-all;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	margin: 0 auto;
+}
+.header .arrow-back {
+	position: absolute;
+	top: .12rem;
+	left: .14rem;
+	width: .13rem;
+	height: .13rem;
+	color: #fff;
+	background: transparent;
+	display: inline-block;
+	vertical-align: middle;
+	border-style: solid;
+	border-width: .02rem 0 0 .02rem;
+	-webkit-transform: rotate(-45deg);
+	-moz-transform: rotate(-45deg);
+	-o-transform: rotate(-45deg);
+	transform: rotate(-45deg);
+}
+.home-icon{
+	width: .22rem;
+	height: .22rem;
+	display: block;
+	background: url("../images/home.png") no-repeat center center;
+	background-size: contain;
+	position: absolute;
+	top: .09rem;
+	right: .1rem;
+	z-index: 4;
+}
+.share-icon{
+	position: absolute;
+	top: .09rem;
+	right: .1rem;
+	width: .2rem;
+	height: .22rem;
+	display: block;
+	background: url(../images/share.png) no-repeat center center;
+	background-size: contain;
+	z-index: 4;
+}
+.clearfix {
+	display: block;
+	zoom: 1;
+}
+.clearfix:after {
+	content: ".";
+	font-size: 0;
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+.wrapper{
+	position: relative;
+	width: 100%;
+	margin: 0 auto;	
+}
+
+/*warp header 适配*/
+@media only screen and (min-width: 321px) and (max-width: 360px) {
+	html {font-size: 703%;}
+	.header{height: .36rem;line-height: .36rem;}
+	.header center{font-size: .16rem;}
+	.header .arrow-back {top: .11rem;left: .12rem;width: .12rem;height: .12rem;border-width: .02rem 0 0 .02rem;}
+	.home-icon{width: .2rem;height: .2rem;top: .08rem;right: .09rem;}
+	.share-icon{width: .18rem;height: .2rem;top: .08rem;right: .09rem;}
+}
+@media only screen and (min-width: 361px) and (max-width: 413px) {
+	html {font-size: 732%;}
+	.header{height: .34rem;line-height: .34rem;}
+	.header center{font-size: .15rem;}
+	.header .arrow-back {top: .1rem;left: .12rem;width: .11rem;height: .11rem;border-width: .02rem 0 0 .02rem;}
+	.home-icon{width: .17rem;height: .17rem;top: .08rem;right: .08rem;}
+	.share-icon{width: .18rem;height: .17rem;top: .08rem;right: .08rem;}
+}
+@media only screen and (min-width:414px) and (max-width: 640px) {
+	html {font-size: 808%;}
+	.header{height: .31rem;line-height: .31rem;}
+	.header center{font-size: .14rem;}
+	.header .arrow-back {top: .09rem;left: .11rem;width: .1rem;height: .1rem;border-width: .02rem 0 0 .02rem;}
+	.home-icon{width: .17rem;height: .17rem;top: .07rem;right: .08rem;}
+	.share-icon{width: .17rem;height: .17rem;top: .07rem;right: .08rem;}
+}
+@media only screen and (width: 384px) {
+	html {font-size: 750%;}
+	.header{height: .34rem;line-height: .34rem;}
+	.header center{font-size: .15rem;}
+	.header .arrow-back {top: .1rem;left: .12rem;width: .12rem;height: .11rem;border-width: .02rem 0 0 .02rem;}
+	.home-icon{width: .18rem;height: .18rem;top: .08rem;right: .08rem;}
+	.share-icon{width: .18rem;height: .18rem;top: .08rem;right: .08rem;}
+}
+@media only screen and (width: 411px) {
+	html {font-size: 800%;}
+	.header{height: .31rem;line-height: .31rem;}
+	.header center{font-size: .15rem;}
+	.header .arrow-back {top: .1rem;left: .12rem;width: .11rem;height: .11rem;border-width: .02rem 0 0 .02rem;}
+	.home-icon{width: .17rem;height: .17rem;top: .08rem;right: .08rem;}
+	.share-icon{width: .18rem;height: .17rem;top: .08rem;right: .08rem;}
+}
+@media only screen and (width: 412px) {
+	html {font-size: 800%;}
+	.header{height: .31rem;line-height: .31rem;}
+	.header center{font-size: .15rem;}
+	.header .arrow-back {top: .1rem;left: .12rem;width: .11rem;height: .11rem;border-width: .02rem 0 0 .02rem;}
+	.home-icon{width: .17rem;height: .17rem;top: .08rem;right: .08rem;}
+	.share-icon{width: .18rem;height: .17rem;top: .08rem;right: .08rem;}
+}
+@media only screen and (width: 435px) {
+	html {font-size: 845%;}
+	.header{height: .3rem;line-height: .3rem;}
+	.header center{font-size: .14rem;}
+	.header .arrow-back {top: .09rem;left: .11rem;width: .1rem;height: .1rem;border-width: .02rem 0 0 .02rem;}
+	.home-icon{width: .17rem;height: .17rem;top: .07rem;right: .08rem;}
+	.share-icon{width: .17rem;height: .17rem;top: .07rem;right: .08rem;}
+}
+@media only screen and (width: 600px) {
+	html {font-size: 1170%;}
+}
+@media screen and (min-width:768px){
+	html{font-size: 1500%;}
+}

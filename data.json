@@ -1,0 +1,36 @@
+{ 
+  "game": {
+	    "dsnum":80,
+		"score":"75",
+		"goal":"60",
+		"questions":[
+			{
+				"qsnum":1,
+				"qs":"毛毛说：10＋4＝2，老师也说对，为什么?",
+				"answer":[
+					{"ans":"老师喜欢小明","state":"wrong"},
+					{"ans":"10点+4点=下午2点","state":"right"},
+					{"ans":"小明长得帅","state":"wrong"}
+				]
+			},
+			{
+				"qsnum":2,
+				"qs":" 1冬瓜、黄瓜、西瓜、南瓜都能吃,什么瓜不能吃?",
+				"answer":[
+					{"ans":"傻瓜","state":"right"},
+					{"ans":"西瓜","state":"wrong"},
+					{"ans":"黄瓜","state":"wrong"}
+				]
+			},
+			{
+				"qsnum":3,
+				"qs":"小华在家里，和谁长得最像?",
+				"answer":[
+					{"ans":"爸爸","state":"wrong"},
+					{"ans":"妈妈","state":"wrong"},
+					{"ans":"他自己","state":"right"}
+				]
+			}
+		]
+	}
+}
